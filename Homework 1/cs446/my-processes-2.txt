@@ -1,0 +1,164 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+grantda+  1084  0.0  0.1  77096  8216 ?        Ss   17:39   0:00 /lib/systemd/sy
+stemd --user
+grantda+  1085  0.0  0.0 114016  2652 ?        S    17:39   0:00 (sd-pam)
+grantda+  1098  0.0  0.0 281284  7072 ?        SLl  17:39   0:00 /usr/bin/gnome-
+keyring-daemon --daemonize --login
+grantda+  1102  0.0  0.0 205024  5916 tty1     Ssl+ 17:39   0:00 /usr/lib/gdm3/g
+dm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --se
+ssion=ubuntu
+grantda+  1104  2.0  1.5 527476 124304 tty1    Rl+  17:39   0:02 /usr/lib/xorg/X
+org vt1 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -nores
+et -keeptty -verbose 3
+grantda+  1107  0.1  0.0  50792  5064 ?        Ss   17:39   0:00 /usr/bin/dbus-d
+aemon --session --address=systemd: --nofork --nopidfile --systemd-activation --s
+yslog-only
+grantda+  1111  0.0  0.1 625848 14172 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+session/gnome-session-binary --session=ubuntu
+grantda+  1210  0.0  0.0  48420   352 ?        S    17:39   0:00 /usr/bin/VBoxCl
+ient --clipboard
+grantda+  1211  0.0  0.0 182860  4224 ?        Sl   17:39   0:00 /usr/bin/VBoxCl
+ient --clipboard
+grantda+  1219  0.0  0.0  48420   352 ?        S    17:39   0:00 /usr/bin/VBoxCl
+ient --seamless
+grantda+  1220  0.0  0.0 180656  2848 ?        Sl   17:39   0:00 /usr/bin/VBoxCl
+ient --seamless
+grantda+  1228  0.0  0.0  48420   352 ?        S    17:39   0:00 /usr/bin/VBoxCl
+ient --draganddrop
+grantda+  1229  0.0  0.0 181172  2808 ?        Sl   17:39   0:00 /usr/bin/VBoxCl
+ient --draganddrop
+grantda+  1236  0.0  0.0  48420   352 ?        S    17:39   0:00 /usr/bin/VBoxCl
+ient --vmsvga
+grantda+  1237  0.0  0.0 184968  3620 ?        Sl   17:39   0:00 /usr/bin/VBoxCl
+ient --vmsvga
+grantda+  1246  0.0  0.0  11304   320 ?        Ss   17:39   0:00 /usr/bin/ssh-ag
+ent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --sessi
+on=ubuntu
+grantda+  1248  0.0  0.0 349292  6496 ?        Ssl  17:39   0:00 /usr/lib/at-spi
+2-core/at-spi-bus-launcher
+grantda+  1253  0.0  0.0  49924  4196 ?        S    17:39   0:00 /usr/bin/dbus-d
+aemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --pr
+int-address 3
+grantda+  1256  0.0  0.0 220780  6844 ?        Sl   17:39   0:00 /usr/lib/at-spi
+2-core/at-spi2-registryd --use-gnome-session
+grantda+  1274  5.3  4.0 3013220 316860 tty1   Rl+  17:39   0:06 /usr/bin/gnome-
+shell
+root      1280  0.0  0.1 315264  8720 ?        Ssl  17:39   0:00 /usr/lib/upower
+/upowerd
+grantda+  1295  0.0  0.0 284864  6996 ?        Ssl  17:39   0:00 /usr/lib/gvfs/g
+vfsd
+grantda+  1300  0.0  0.0 416112  5320 ?        Sl   17:39   0:00 /usr/lib/gvfs/g
+vfsd-fuse /run/user/1000/gvfs -f -o big_writes
+grantda+  1311  0.4  0.2 1408172 17140 ?       S<l  17:39   0:00 /usr/bin/pulsea
+udio --start --log-target=syslog
+rtkit     1312  0.0  0.0 183504  3012 ?        SNsl 17:39   0:00 /usr/lib/rtkit/
+rtkit-daemon
+grantda+  1325  0.0  0.1 428116  7796 tty1     Sl   17:39   0:00 ibus-daemon --x
+im --panel disable
+grantda+  1329  0.0  0.0 273640  6684 tty1     Sl   17:39   0:00 /usr/lib/ibus/i
+bus-dconf
+grantda+  1333  0.0  0.2 336856 20588 tty1     Sl   17:39   0:00 /usr/lib/ibus/i
+bus-x11 --kill-daemon
+grantda+  1336  0.0  0.0 271580  5872 ?        Sl   17:39   0:00 /usr/lib/ibus/i
+bus-portal
+grantda+  1345  0.0  0.2 689792 20664 ?        Sl   17:39   0:00 /usr/lib/gnome-
+shell/gnome-shell-calendar-server
+grantda+  1349  0.0  0.3 758840 25296 ?        Ssl  17:39   0:00 /usr/lib/evolut
+ion/evolution-source-registry
+grantda+  1358  0.0  0.4 857492 33676 ?        Sl   17:39   0:00 /usr/lib/gnome-
+online-accounts/goa-daemon
+root      1365  0.0  0.0 289764  6812 ?        Ssl  17:39   0:00 /usr/lib/x86_64
+-linux-gnu/boltd
+grantda+  1367  0.0  0.0 187904  5144 ?        Sl   17:39   0:00 /usr/lib/dconf/
+dconf-service
+grantda+  1380  0.0  0.0 370112  7628 ?        Sl   17:39   0:00 /usr/lib/gnome-
+online-accounts/goa-identity-service
+grantda+  1385  0.0  0.1 299432  9096 ?        Ssl  17:39   0:00 /usr/lib/gvfs/g
+vfs-udisks2-volume-monitor
+grantda+  1389  0.0  0.0 281552  5484 ?        Ssl  17:39   0:00 /usr/lib/gvfs/g
+vfs-gphoto2-volume-monitor
+grantda+  1393  0.0  0.0 268760  4868 ?        Ssl  17:39   0:00 /usr/lib/gvfs/g
+vfs-mtp-volume-monitor
+grantda+  1397  0.0  0.0 266936  5804 ?        Ssl  17:39   0:00 /usr/lib/gvfs/g
+vfs-goa-volume-monitor
+grantda+  1401  0.0  0.0 371720  7472 ?        Ssl  17:39   0:00 /usr/lib/gvfs/g
+vfs-afc-volume-monitor
+root      1406  4.2  0.5 515424 40308 ?        Ssl  17:39   0:04 /usr/lib/packag
+ekit/packagekitd
+grantda+  1409  0.0  0.2 510116 22068 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-power
+grantda+  1411  0.0  0.1 342228 10188 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-print-notifications
+grantda+  1413  0.0  0.0 416104  5868 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-rfkill
+grantda+  1414  0.0  0.0 268624  4852 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-screensaver-proxy
+grantda+  1416  0.0  0.1 445736  9076 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-sharing
+grantda+  1422  0.0  0.1 370964  8976 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-smartcard
+grantda+  1427  0.0  0.2 487396 21832 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-xsettings
+grantda+  1432  0.0  0.1 327868  7892 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-sound
+grantda+  1433  0.0  0.2 421344 20976 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-wacom
+grantda+  1441  0.0  0.2 336464 20088 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-clipboard
+grantda+  1447  0.0  0.0 271044  5916 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-a11y-settings
+grantda+  1448  0.0  0.1 462632 13672 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-datetime
+grantda+  1449  0.0  0.2 651760 21348 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-color
+grantda+  1451  0.0  0.2 490852 20472 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-keyboard
+grantda+  1455  0.0  0.0 357340  7060 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-housekeeping
+grantda+  1456  0.0  0.0 271052  5940 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-mouse
+grantda+  1460  0.0  0.3 1074332 23364 tty1    Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-media-keys
+grantda+  1483  0.0  0.1 501664 12512 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+settings-daemon/gsd-printer
+colord    1506  0.0  0.1 317864 13840 ?        Ssl  17:39   0:00 /usr/lib/colord
+/colord
+grantda+  1517  0.0  0.0 271932  6544 tty1     Sl+  17:39   0:00 /usr/lib/gnome-
+disk-utility/gsd-disk-utility-notify
+grantda+  1526  0.6  0.7 1032040 54744 tty1    Sl+  17:39   0:00 nautilus-deskto
+p
+grantda+  1559  0.0  0.0 434852  7212 ?        Sl   17:39   0:00 /usr/lib/gvfs/g
+vfsd-trash --spawner :1.13 /org/gtk/gvfs/exec_spaw/0
+grantda+  1580  0.1  0.8 885508 67744 ?        Ssl  17:39   0:00 /usr/lib/evolut
+ion/evolution-calendar-factory
+grantda+  1595  0.1  0.8 932660 62444 ?        Sl   17:39   0:00 /usr/lib/evolut
+ion/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evo
+lution.dataserver.Subprocess.Backend.Calendarx1580x2 --own-path /org/gnome/evolu
+tion/dataserver/Subprocess/Backend/Calendar/1580/2
+grantda+  1607  0.0  0.3 725736 24124 ?        Ssl  17:39   0:00 /usr/lib/evolut
+ion/evolution-addressbook-factory
+grantda+  1615  0.0  0.3 879044 26612 ?        Sl   17:39   0:00 /usr/lib/evolut
+ion/evolution-addressbook-factory-subprocess --factory all --bus-name org.gnome.
+evolution.dataserver.Subprocess.Backend.AddressBookx1607x2 --own-path /org/gnome
+/evolution/dataserver/Subprocess/Backend/AddressBook/1607/2
+grantda+  1628  0.0  0.0 197780  6592 tty1     Sl   17:39   0:00 /usr/lib/ibus/i
+bus-engine-simple
+grantda+  1644  0.0  0.0 197440  5840 ?        Ssl  17:39   0:00 /usr/lib/gvfs/g
+vfsd-metadata
+grantda+  1674  1.1  0.6 771228 51448 ?        Sl   17:39   0:00 /usr/bin/nautil
+us --gapplication-service
+grantda+  1684  0.6  0.4 857236 36340 ?        Ssl  17:39   0:00 /usr/lib/gnome-
+terminal/gnome-terminal-server
+grantda+  1693  0.0  0.0  22576  5068 pts/0    Ss   17:39   0:00 bash
+grantda+  1702  0.0  0.3 658148 24580 tty1     Sl+  17:40   0:00 update-notifier
+grantda+  1704  3.5  2.0 1130232 158520 tty1   SLl+ 17:40   0:01 /usr/bin/gnome-
+software --gapplication-service
+grantda+  1798  0.0  0.0  12880  3076 pts/0    S+   17:40   0:00 bash Problem2.s
+h
+grantda+  1805  0.0  0.1 426436  8824 ?        Ssl  17:40   0:00 /usr/bin/zeitge
+ist-daemon
+grantda+  1811  0.0  0.2 326740 16220 ?        Ssl  17:40   0:00 /usr/lib/zeitge
+ist/zeitgeist/zeitgeist-fts
+grantda+  1818  0.0  0.0  39660  3532 pts/0    R+   17:40   0:00 ps -aux
+grantda+  1819  0.0  0.0   9728   984 pts/0    S+   17:40   0:00 more
+

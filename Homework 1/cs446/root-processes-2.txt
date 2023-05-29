@@ -1,0 +1,129 @@
+root         1     0  4 17:38 ?        00:00:04 /sbin/init splash
+root         2     0  0 17:38 ?        00:00:00 [kthreadd]
+root         3     2  0 17:38 ?        00:00:00 [rcu_gp]
+root         4     2  0 17:38 ?        00:00:00 [rcu_par_gp]
+root         5     2  0 17:38 ?        00:00:00 [kworker/0:0-ata]
+root         6     2  0 17:38 ?        00:00:00 [kworker/0:0H-kb]
+root         7     2  0 17:38 ?        00:00:00 [kworker/0:1-eve]
+root         8     2  0 17:38 ?        00:00:00 [kworker/u2:0-ev]
+root         9     2  0 17:38 ?        00:00:00 [mm_percpu_wq]
+root        10     2  0 17:38 ?        00:00:00 [ksoftirqd/0]
+root        11     2  0 17:38 ?        00:00:00 [rcu_sched]
+root        12     2  0 17:38 ?        00:00:00 [migration/0]
+root        13     2  0 17:38 ?        00:00:00 [idle_inject/0]
+root        14     2  0 17:38 ?        00:00:00 [cpuhp/0]
+root        15     2  0 17:38 ?        00:00:00 [kdevtmpfs]
+root        16     2  0 17:38 ?        00:00:00 [netns]
+root        17     2  0 17:38 ?        00:00:00 [rcu_tasks_kthre]
+root        18     2  0 17:38 ?        00:00:00 [kauditd]
+root        19     2  0 17:38 ?        00:00:00 [khungtaskd]
+root        20     2  0 17:38 ?        00:00:00 [oom_reaper]
+root        21     2  0 17:38 ?        00:00:00 [writeback]
+root        22     2  0 17:38 ?        00:00:00 [kcompactd0]
+root        23     2  0 17:38 ?        00:00:00 [ksmd]
+root        24     2  0 17:38 ?        00:00:00 [khugepaged]
+root        70     2  0 17:38 ?        00:00:00 [kintegrityd]
+root        71     2  0 17:38 ?        00:00:00 [kblockd]
+root        72     2  0 17:38 ?        00:00:00 [blkcg_punt_bio]
+root        73     2  0 17:38 ?        00:00:00 [tpm_dev_wq]
+root        74     2  0 17:38 ?        00:00:00 [ata_sff]
+root        75     2  0 17:38 ?        00:00:00 [md]
+root        76     2  0 17:38 ?        00:00:00 [edac-poller]
+root        77     2  0 17:38 ?        00:00:00 [devfreq_wq]
+root        78     2  0 17:38 ?        00:00:00 [watchdogd]
+root        79     2  0 17:38 ?        00:00:00 [kworker/u2:1-ev]
+root        82     2  0 17:38 ?        00:00:00 [kswapd0]
+root        83     2  0 17:38 ?        00:00:00 [ecryptfs-kthrea]
+root        85     2  0 17:38 ?        00:00:00 [kthrotld]
+root        86     2  0 17:38 ?        00:00:00 [acpi_thermal_pm]
+root        87     2  0 17:38 ?        00:00:00 [scsi_eh_0]
+root        88     2  0 17:38 ?        00:00:00 [scsi_tmf_0]
+root        89     2  0 17:38 ?        00:00:00 [scsi_eh_1]
+root        90     2  0 17:38 ?        00:00:00 [scsi_tmf_1]
+root        91     2  0 17:38 ?        00:00:00 [kworker/u2:2-ev]
+root        92     2  0 17:38 ?        00:00:00 [vfio-irqfd-clea]
+root        93     2  0 17:38 ?        00:00:00 [ipv6_addrconf]
+root       102     2  0 17:38 ?        00:00:00 [kstrp]
+root       105     2  0 17:38 ?        00:00:00 [kworker/u3:0]
+root       118     2  0 17:38 ?        00:00:00 [charger_manager]
+root       175     2  0 17:38 ?        00:00:00 [scsi_eh_2]
+root       176     2  0 17:38 ?        00:00:00 [scsi_tmf_2]
+root       178     2  0 17:38 ?        00:00:00 [kworker/0:2-eve]
+root       179     2  0 17:38 ?        00:00:00 [kworker/0:3-cgr]
+root       180     2  0 17:38 ?        00:00:00 [kworker/0:1H-kb]
+root       181     2  0 17:38 ?        00:00:00 [irq/18-vmwgfx]
+root       182     2  0 17:38 ?        00:00:00 [ttm_swap]
+root       275     2  0 17:38 ?        00:00:00 [jbd2/sda1-8]
+root       276     2  0 17:38 ?        00:00:00 [ext4-rsv-conver]
+root       326     1  0 17:38 ?        00:00:00 /lib/systemd/systemd-journald
+root       340     1  0 17:38 ?        00:00:00 /lib/systemd/systemd-udevd
+root       344     2  0 17:38 ?        00:00:00 [loop0]
+root       349     2  0 17:38 ?        00:00:00 [loop1]
+root       350     2  0 17:38 ?        00:00:00 [loop2]
+root       351     2  0 17:38 ?        00:00:00 [loop3]
+root       364     2  0 17:38 ?        00:00:00 [loop4]
+root       367     2  0 17:38 ?        00:00:00 [loop5]
+root       380     2  0 17:38 ?        00:00:00 [loop6]
+root       383     2  0 17:38 ?        00:00:00 [loop7]
+root       394     2  0 17:38 ?        00:00:00 [loop8]
+root       412     2  0 17:38 ?        00:00:00 [loop9]
+root       439     2  0 17:38 ?        00:00:00 [loop10]
+root       449     2  0 17:38 ?        00:00:00 [loop11]
+root       453     2  0 17:38 ?        00:00:00 [loop12]
+root       454     2  0 17:38 ?        00:00:00 [loop13]
+root       455     2  0 17:38 ?        00:00:00 [loop14]
+root       456     2  0 17:38 ?        00:00:00 [loop15]
+root       458     2  0 17:38 ?        00:00:00 [loop16]
+root       459     2  0 17:38 ?        00:00:00 [loop17]
+root       461     2  0 17:38 ?        00:00:00 [loop18]
+root       469     2  0 17:38 ?        00:00:00 [loop19]
+root       487     2  0 17:38 ?        00:00:00 [iprt-VBoxWQueue]
+systemd+   569     1  0 17:38 ?        00:00:00 /lib/systemd/systemd-resolved
+root       641     2  0 17:38 ?        00:00:00 [cryptd]
+avahi      653     1  0 17:38 ?        00:00:00 avahi-daemon: running [grantdavi
+s-VirtualBox.local]
+syslog     654     1  0 17:38 ?        00:00:00 /usr/sbin/rsyslogd -n
+avahi      662   653  0 17:38 ?        00:00:00 avahi-daemon: chroot helper
+root       663     1  0 17:38 ?        00:00:00 /usr/lib/accountsservice/account
+s-daemon
+root       671     1  0 17:38 ?        00:00:00 /usr/sbin/cupsd -l
+root       676     1  0 17:38 ?        00:00:00 /usr/bin/python3 /usr/bin/networ
+kd-dispatcher --run-startup-triggers
+root       677     1  0 17:38 ?        00:00:00 /usr/sbin/cron -f
+root       678     1  0 17:38 ?        00:00:00 /usr/sbin/ModemManager
+root       680     1  0 17:38 ?        00:00:00 /lib/systemd/systemd-logind
+root       683     1  1 17:38 ?        00:00:01 /usr/lib/snapd/snapd
+root       684     1  0 17:38 ?        00:00:00 /usr/lib/udisks2/udisksd
+message+   685     1  0 17:38 ?        00:00:00 /usr/bin/dbus-daemon --system --
+address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       701     1  0 17:38 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /r
+un/wpa_supplicant
+root       702     1  0 17:38 ?        00:00:00 /usr/sbin/NetworkManager --no-da
+emon
+root       703     1  0 17:38 ?        00:00:00 /usr/sbin/acpid
+root       716     1  0 17:38 ?        00:00:00 /usr/lib/policykit-1/polkitd --n
+o-debug
+root       717     1  0 17:38 ?        00:00:00 /usr/sbin/cups-browsed
+root       755     2  0 17:38 ?        00:00:00 [kworker/u2:3-ev]
+lp         759   671  0 17:38 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+://
+lp         760   671  0 17:38 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+://
+root       852     1  0 17:39 ?        00:00:00 /usr/bin/python3 /usr/share/unat
+tended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root       862   702  0 17:39 ?        00:00:00 /sbin/dhclient -d -q -sf /usr/li
+b/NetworkManager/nm-dhcp-helper -pf /run/dhclient-enp0s3.pid -lf /var/lib/Networ
+kManager/dhclient-0e37c9fa-40cf-3bec-a84f-f48585730e3f-enp0s3.lease -cf /var/lib
+/NetworkManager/dhclient-enp0s3.conf enp0s3
+whoopsie   877     1  0 17:39 ?        00:00:00 /usr/bin/whoopsie -f
+kernoops   879     1  0 17:39 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops   881     1  0 17:39 ?        00:00:00 /usr/sbin/kerneloops
+root      1056     1  0 17:39 ?        00:00:00 /usr/sbin/gdm3
+root      1066     1  0 17:39 ?        00:00:00 /usr/sbin/VBoxService --pidfile 
+/var/run/vboxadd-service.sh
+root      1080  1056  0 17:39 ?        00:00:00 gdm-session-worker [pam/gdm-auto
+login]
+root      1280     1  0 17:39 ?        00:00:00 /usr/lib/upower/upowerd
+root      1365     1  0 17:39 ?        00:00:00 /usr/lib/x86_64-linux-gnu/boltd
+root      1722     1  0 17:40 ?        00:00:00 /usr/lib/fwupd/fwupd
+
